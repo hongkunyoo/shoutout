@@ -535,7 +535,7 @@ class ShoutOut():
     self.token = new_token
 
   def loud(self, letters):
-    print (self.loudify(letters))
+    return self.loudify(letters)
 
   def loudify(self, letters):
     width = _getTerminalSize()[1]
@@ -587,7 +587,7 @@ class ShoutOut():
 
 shoutout = ShoutOut()
 def loud(letters):
-  shoutout.loud(letters)
+  return shoutout.loud(letters)
 
 def change_to(token):
   shoutout.change_to(token)
