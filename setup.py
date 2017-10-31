@@ -17,7 +17,7 @@ except IOError:
 
 setup(
     name = "shoutout",
-    version = "0.0.1",
+    version = "0.0.2",
     author = "Hongkun Yoo",
     author_email = "hongkunyoo@gmail.com",
     description = "Shout out loud",
